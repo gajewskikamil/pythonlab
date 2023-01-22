@@ -7,7 +7,6 @@ Uzupełnij kod tak, aby wykonywał określone zadania
 # złóż zdanie z podanej listy słów
 words = ['Ala', 'ma', 'kota', 'a', 'kot', 'ma', 'Alę']
 
-
 # dodaj brakujące słowo (operując na liście) oraz
 # odwróć kolejność słów (nie znaków) w podanym zdaniu
 sentance = 'Ala ma kota a kot ma'
