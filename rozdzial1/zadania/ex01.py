@@ -1,0 +1,5 @@
+print('e'.join('nvr'))
+print('annog'[::-1])
+print('forgive'[-4:])
+print(('me', 'you')[1])
+print('soup'.split('o')[1])
