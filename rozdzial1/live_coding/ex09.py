@@ -11,4 +11,6 @@ Uzupełnij kod tak, aby wykonywał określone zadania
 n = 2
 pi = 3.141592
 r = 7
+res=n*pi*r
+print(str(n)+" * "+str(pi)+" * "+str(r)+" = "+str(res))
 

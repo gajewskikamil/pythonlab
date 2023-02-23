@@ -12,6 +12,11 @@ drivers = {
     'Verstappen': '',
     'Rosberg': '',
 }
+drivers["Hamilton"] = "Levis"
+drivers["Verstappen"] = "Max"
+drivers["Rosberg"] = "Nicko"
+print(drivers)
+
 
 
 # dany jest słownik ze szczegółami aktora, wypisz
@@ -22,3 +27,4 @@ actor = {
     'role': 'Dominic Toretto',
     'name': 'Vin Diesel',
 }
+print(actor['name']+" played in "+actor['movie']+" as "+actor['role'])
