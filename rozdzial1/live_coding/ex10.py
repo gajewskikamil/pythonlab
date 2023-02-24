@@ -22,6 +22,9 @@ else:
 # `element` znajdującej się w module `module` paczki
 # `package`
 import package
+print(package.element)
 
 # wypisz wartość zmiennej `pi` znajdującej się w
 # paczce `math`
+import math
+print(math.pi)
