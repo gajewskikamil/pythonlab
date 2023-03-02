@@ -3,7 +3,7 @@ Importowanie
 
 Uzupełnij kod tak, aby wykonywał określone zadania
 """
-from random import choice
+import random
 
 # dana jest lista Pokemonów, napisz kod, który zapyta
 # co to za Pokemon, a następnie wylosuje dowolnego z
@@ -11,7 +11,7 @@ from random import choice
 pokemons = ['Psyduck', 'Ivysaur', 'Spearow', 'Pikachu']
 htp=input('co to za pokemon?: ')
 htp=pokemons.index(htp)
-poks=choice(range(0,len(pokemons)))
+poks=random.choice(range(0,len(pokemons)))
 if(pokemons[htp]==pokemons[poks]):
     print("yes, it's "+pokemons[poks])
 else:
@@ -21,8 +21,10 @@ else:
 # znajdującej się w paczce `package` oraz zmiennej
 # `element` znajdującej się w module `module` paczki
 # `package`
-import package
-print(package.element)
+from package import element
+from package.module import element as el
+print(element)
+print(el)
 
 # wypisz wartość zmiennej `pi` znajdującej się w
 # paczce `math`
