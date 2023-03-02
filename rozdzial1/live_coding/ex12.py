@@ -12,5 +12,10 @@ drivers = {
     "Hamilton": "Mercedes",
 }
 surename=input("podaj nazwisko kierowcy F1: ")
-if(drivers[surename]): print(drivers[surename])
-else: print("Brak Danych")
+match surename:
+    case "Verstappen":
+        print(drivers[surename])
+    case "Hamilton":
+        print(drivers[surename])
+    case none:
+        print("brak danych")

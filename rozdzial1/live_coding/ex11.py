@@ -9,10 +9,13 @@ Uzupełnij kod tak, aby wykonywał określone zadania
 # liczby, jeśli większa od 100 - wypisz jej połowę,
 # w każdym innym przypadku wypisz wpisaną wartość
 number=int(input("Podaj liczbę: "))
-if(number<10): print(2*number)
+if number<10:
+    print(2*number)
+elif number>100:
+    print(number/2)
 else:
-    if(number>100): print(number/2)
-    else: print(number)
+    print(number)
+
 
 
 
