@@ -8,15 +8,30 @@ gra= {
     2:"Papier",
     3:"Nożyce"}
 you=int(input("1: Kamień \n2: Papier \n3: Nożyce \nWpisz liczbę: "))
-print("Wybrałeś: "+gra[you])
 computer=choice(range(1,3))
-print("Komputer wybrał: "+gra[computer])
-match computer:
-    case 1:
-        print("Remis")
-    case 2:
-        print("Wygrana")
-    case 3:
-        print("Przegrana")
-
-#win = "Wygrałeś" if
+print("Twój wybór: "+gra[you])
+print("Komputer wybrał: "+gra[computer]+"\n")
+if computer==1:
+    match you:
+        case 1:
+            print("Remis")
+        case 2:
+            print("Wygrana")
+        case 3:
+            print("Przegrana")
+if computer==2:
+    match you:
+        case 1:
+            print("Przegrna")
+        case 2:
+            print("Remis")
+        case 3:
+            print("Wygrana")
+if computer==3:
+    match you:
+        case 1:
+            print("Wygrana")
+        case 2:
+            print("Przegrana")
+        case 3:
+            print("Remis")
