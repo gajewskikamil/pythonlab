@@ -19,6 +19,9 @@ elif computer == 3 and you == 1 or computer == 2 and you == 3 or computer == 1 a
     print("Wygrana")
 else:
     print("Przegrana")
+
+
+
 def exe3():
     if computer != you:
         if computer != 1:
