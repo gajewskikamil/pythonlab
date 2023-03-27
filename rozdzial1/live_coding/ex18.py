@@ -10,3 +10,9 @@ Uzupełnij kod tak, aby wykonywał określone zadania
 
 def hello(name, surname='Scott'):
     print(f'My name is {surname}, {name} {surname}')
+
+s = {
+    'name': 'James',
+    'surname': 'Bond'
+}
+hello(**s)
